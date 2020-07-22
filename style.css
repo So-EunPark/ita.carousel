@@ -1,0 +1,24 @@
+.container {
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+}
+
+/* ============CAROUSEL========== */
+.carousel > .photos > ul {
+  display: flex;
+  list-style: none;
+}
+.carousel > .photos > ul > li {
+  display: inline-block;
+}
+
+.carousel img {
+  max-width: 30%;
+  display: block;
+}
