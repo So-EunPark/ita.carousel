@@ -1,8 +1,12 @@
+body {
+  padding: 200px 100px;
+}
 .container {
   background-color: antiquewhite;
   display: flex;
   justify-content: center;
   align-items: center;
+  /* margin: 300px 0; */
 }
 
 ul {
@@ -10,15 +14,52 @@ ul {
 }
 
 /* ============CAROUSEL========== */
-.carousel > .photos > ul {
-  display: flex;
-  list-style: none;
+.carousel {
+  position: relative;
+  background-color: darkorchid;
+  /* width: 1270px; */
+  padding: 10px 40px;
 }
-.carousel > .photos > ul > li {
+
+.carousel > .box {
+  overflow: hidden;
+  width: 1215px;
+  background-color: darkgray;
+}
+
+.carousel > .box > ul {
+  border: darksalmon;
+  padding: 0;
+  margin: 0;
+  width: 9999px;
+  height: 240px;
+  transition: margin-left 250ms;
+  background-color: darkgreen;
+}
+.carousel > .box > ul > li {
   display: inline-block;
+  padding: 0;
+  margin: 0px;
+  /* margin: 0 10px; */
+  background-color: darkkhaki;
 }
 
 .carousel img {
-  max-width: 30%;
   display: block;
+  margin: 0;
+  padding: 0;
+}
+
+/* ==============BUTTON=================== */
+
+.button > ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  padding: 0;
+}
+
+.button > ul > li {
+  color: rgb(53, 231, 231);
+  margin: 3px;
 }
