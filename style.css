@@ -1,12 +1,11 @@
 body {
   padding: 200px 100px;
+  background-color: #fdece2;
 }
 .container {
-  background-color: antiquewhite;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* margin: 300px 0; */
 }
 
 ul {
@@ -16,38 +15,32 @@ ul {
 /* ============CAROUSEL========== */
 .carousel {
   position: relative;
-  background-color: darkorchid;
-  /* width: 1270px; */
   padding: 10px 40px;
 }
 
 .carousel > .box {
   overflow: hidden;
   width: 1215px;
-  background-color: darkgray;
 }
 
 .carousel > .box > ul {
-  border: darksalmon;
   padding: 0;
   margin: 0;
   width: 9999px;
   height: 240px;
   transition: margin-left 250ms;
-  background-color: darkgreen;
 }
 .carousel > .box > ul > li {
   display: inline-block;
   padding: 0;
   margin: 0px;
-  /* margin: 0 10px; */
-  background-color: darkkhaki;
 }
 
 .carousel img {
   display: block;
   margin: 0;
   padding: 0;
+  border-radius: 10px;
 }
 
 /* ==============BUTTON=================== */
@@ -60,6 +53,6 @@ ul {
 }
 
 .button > ul > li {
-  color: rgb(53, 231, 231);
+  color: #ffa2b4;
   margin: 3px;
 }
