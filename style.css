@@ -1,6 +1,6 @@
 body {
   padding: 200px 100px;
-  background-color: #fdece2;
+  background-color: #0a213d;
 }
 .container {
   display: flex;
@@ -28,7 +28,7 @@ ul {
   margin: 0;
   width: 9999px;
   height: 240px;
-  transition: margin-left 250ms;
+  transition: margin-left 1000ms;
 }
 .carousel > .box > ul > li {
   display: inline-block;
@@ -53,6 +53,6 @@ ul {
 }
 
 .button > ul > li {
-  color: #ffa2b4;
+  color: #495c75;
   margin: 3px;
 }
