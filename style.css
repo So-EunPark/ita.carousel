@@ -33,7 +33,7 @@ ul {
 .carousel > .box > ul > li {
   display: inline-block;
   padding: 0;
-  margin: 0px;
+  margin: 0;
 }
 
 .carousel img {
